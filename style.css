@@ -1,0 +1,141 @@
+body{
+    background-color: #FAFAFA;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;  
+}
+
+.left-img-container{
+    margin-right: 0.4rem;
+}
+
+.insta-brand-img{
+    width: 450px;
+    margin-top: -1.5rem;
+}
+
+.right-form-container{
+    margin-left: 0.4rem;
+}
+
+.login-container{
+    border: solid 1.5px#dbdbdb;
+    margin-top: 4rem;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 0.5rem;
+}
+
+.text-logo{
+    width: 200px;
+    height: 80px;
+    padding: 1rem 4.5rem;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 2.5rem;
+    margin-bottom: 1rem;
+}
+.name-input{
+    padding: 0.6rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    background-color: #FAFAFA;
+    border: solid 1.5px#dbdbdb;
+}
+
+.password-input{ 
+    padding: 0.6rem;
+    border-radius: 3px;
+    background-color: #FAFAFA;
+    border: solid 1.5px#dbdbdb;
+}
+
+.button{
+    background-color: rgb(0,149,246);
+    padding: 0.4rem ;
+    width: 78%;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+}
+.or-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0.4rem;
+}
+hr{
+    width: 100px;
+    border: 1px solid rgb(223, 223, 223 )
+}
+.or-container p{
+    text-transform: uppercase;
+    color: rgb(104, 104, 104);
+}
+
+.fb-login-container{
+  margin-bottom: 1rem;
+}
+
+
+.fa-facebook-square{
+    color: #3d5a98;
+}
+
+.fb-text{
+    text-decoration: none;
+    color: #3d5a98;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.forget-password{
+    font-size: 0.8rem;
+    font-weight: 10;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.Sign-up-container{
+    border: solid 1.5px#dbdbdb;
+    text-align: center;
+    background-color: white; 
+    font-size: 0.9rem; 
+    font-weight: 10;
+    padding: 0.5rem;
+}
+
+.signup-link{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #0095f6;
+    font-weight: 500;
+}
+
+.get-app, p{
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+.app-img-container{
+    display: flex;
+    justify-content: space-around;  
+}
+
+.appstore{
+    width: 150px;
+}
+
+.playstore{
+    width: 150px;
+}
