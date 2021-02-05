@@ -139,3 +139,30 @@ hr{
 .playstore{
     width: 150px;
 }
+
+.footer{
+    background-color: #f6f6f6;
+}
+
+.row-1, .row-2, .row-3{
+    display: flex;
+    justify-content: center;
+}
+.row-1, .row-2, a{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+    font-size: 0.8rem;
+}
+
+.row-1, a{
+    padding: 0.3rem 0.5rem;
+}
+
+.row-2, a{
+     padding: 0.2rem 0.9rem;
+}
+
+.row-3, p{
+    color: rgb(104, 104, 104);
+    font-size: 0.9rem;
+}
